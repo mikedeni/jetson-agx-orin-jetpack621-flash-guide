@@ -148,8 +148,6 @@ Log in with your NVIDIA Developer account when prompted.
 
 ### 3.2 Step 01 — Development Environment
 
-![SDK Manager Step 01 — Hardware Selection](https://docs.nvidia.com/sdk-manager/_images/jetson-step1-hw.02.png)
-
 | Field | Value |
 |-------|-------|
 | Product Category | Jetson |
