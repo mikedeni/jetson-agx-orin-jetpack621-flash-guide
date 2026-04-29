@@ -51,19 +51,15 @@ Complete guide to flash the **NVIDIA Jetson AGX Orin Developer Kit** with **JetP
 
 ## Hardware Overview
 
-```
-Jetson AGX Orin Dev Kit — Front Panel Buttons & Ports
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│  [Power]  [Force Recovery]  [Reset]                 │  ← Buttons
-│                                                     │
-│  USB-C (power, above DC jack)                       │  ← Power input
-│  USB-C (next to 40-pin connector) ← FLASH PORT      │  ← Flashing port
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
+### Board Layout — Side View 1 (Ports & Connectors)
 
-> **Critical:** Use the USB-C port **next to the 40-pin connector** for flashing — NOT the power port.
+![Jetson AGX Orin Dev Kit — Side 1](https://developer.download.nvidia.com/embedded/images/jetsonAgxOrin/getting_started/jaodk_labeled_01.png)
+
+### Board Layout — Side View 2 (Buttons & Power)
+
+![Jetson AGX Orin Dev Kit — Side 2](https://developer.download.nvidia.com/embedded/images/jetsonAgxOrin/getting_started/jaodk_labeled_02.png)
+
+> **Critical:** Use the USB-C port **next to the 40-pin connector** (port 10) for flashing — NOT the power USB-C port (port 4).
 
 ---
 
@@ -152,6 +148,8 @@ Log in with your NVIDIA Developer account when prompted.
 
 ### 3.2 Step 01 — Development Environment
 
+![SDK Manager Step 01 — Hardware Selection](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-step1-hw.02.png)
+
 | Field | Value |
 |-------|-------|
 | Product Category | Jetson |
@@ -168,6 +166,8 @@ Click **Continue**.
 
 ### 4.1 Step 02 — Details and License
 
+![SDK Manager Step 02 — Details and License](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-step3-details.png)
+
 | Section | Action |
 |---------|--------|
 | Jetson OS | **Select** (check) |
@@ -182,6 +182,8 @@ SDK Manager downloads the OS image (~7–12 GB depending on components). Wait fo
 
 ### 4.3 Flash Prompt — Manual Setup
 
+![SDK Manager Flash Dialog — Manual Setup](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-preflash-dialog-manual.png)
+
 A dialog box appears:
 
 1. Select **Manual Setup — Jetson AGX Orin**
@@ -193,6 +195,8 @@ A dialog box appears:
 Flashing takes **5–15 minutes** depending on storage type. Do not disconnect the USB cable or power during this time.
 
 ### 4.4 Monitor Progress
+
+![SDK Manager Step 03 — Install Progress](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-install-3-preconfig.png)
 
 Progress bar shows:
 - Downloading
