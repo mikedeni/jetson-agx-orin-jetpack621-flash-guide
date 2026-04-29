@@ -230,13 +230,14 @@ SDK components include CUDA, cuDNN, TensorRT, VPI, and OpenCV.
 
 ### 6.1 Via SDK Manager (Recommended)
 
-1. Jetson must be **on the same network** as the host, or connected via USB.
+1. Keep Jetson powered on and connected via the **flashing USB-C cable** (port next to 40-pin connector).
 2. Re-open SDK Manager on host.
-3. At **Step 02**, now **select Jetson SDK Components** (deselect Jetson OS).
-4. At **Step 03**, enter:
-   - **IP Address**: Jetson's IP (e.g., `192.168.1.x`) or `192.168.55.1` for USB
-   - **Username / Password**: credentials set during Step 5
-5. Click **Install**.
+3. At **Step 01**, select Jetson AGX Orin — same as before.
+4. At **Step 02**, **select Jetson SDK Components**, deselect Jetson OS, accept licenses.
+5. At **Step 03**, set:
+   - **Connection**: USB
+   - **IPv4 Address**: `192.168.55.1` (auto-populated, do not change)
+6. Click **Install**.
 
 ### 6.2 Directly on Jetson (Alternative)
 
