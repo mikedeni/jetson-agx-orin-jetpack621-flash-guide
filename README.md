@@ -166,8 +166,6 @@ Click **Continue**.
 
 ### 4.1 Step 02 — Details and License
 
-![SDK Manager Step 02 — Details and License](https://docs.nvidia.com/sdk-manager/_images/jetson-step3-details.png)
-
 | Section | Action |
 |---------|--------|
 | Jetson OS | **Select** (check) |
@@ -182,8 +180,6 @@ SDK Manager downloads the OS image (~7–12 GB depending on components). Wait fo
 
 ### 4.3 Flash Prompt — Manual Setup
 
-![SDK Manager Flash Dialog — Manual Setup](https://docs.nvidia.com/sdk-manager/_images/jetson-preflash-dialog-manual.png)
-
 A dialog box appears:
 
 1. Select **Manual Setup — Jetson AGX Orin**
@@ -195,8 +191,6 @@ A dialog box appears:
 Flashing takes **5–15 minutes** depending on storage type. Do not disconnect the USB cable or power during this time.
 
 ### 4.4 Monitor Progress
-
-![SDK Manager Step 03 — Install Progress](https://docs.nvidia.com/sdk-manager/_images/jetson-install-3-preconfig.png)
 
 Progress bar shows:
 - Downloading
