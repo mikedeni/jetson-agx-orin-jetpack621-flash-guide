@@ -148,7 +148,7 @@ Log in with your NVIDIA Developer account when prompted.
 
 ### 3.2 Step 01 — Development Environment
 
-![SDK Manager Step 01 — Hardware Selection](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-step1-hw.02.png)
+![SDK Manager Step 01 — Hardware Selection](https://docs.nvidia.com/sdk-manager/_images/jetson-step1-hw.02.png)
 
 | Field | Value |
 |-------|-------|
@@ -166,7 +166,7 @@ Click **Continue**.
 
 ### 4.1 Step 02 — Details and License
 
-![SDK Manager Step 02 — Details and License](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-step3-details.png)
+![SDK Manager Step 02 — Details and License](https://docs.nvidia.com/sdk-manager/_images/jetson-step3-details.png)
 
 | Section | Action |
 |---------|--------|
@@ -182,7 +182,7 @@ SDK Manager downloads the OS image (~7–12 GB depending on components). Wait fo
 
 ### 4.3 Flash Prompt — Manual Setup
 
-![SDK Manager Flash Dialog — Manual Setup](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-preflash-dialog-manual.png)
+![SDK Manager Flash Dialog — Manual Setup](https://docs.nvidia.com/sdk-manager/_images/jetson-preflash-dialog-manual.png)
 
 A dialog box appears:
 
@@ -196,7 +196,7 @@ Flashing takes **5–15 minutes** depending on storage type. Do not disconnect t
 
 ### 4.4 Monitor Progress
 
-![SDK Manager Step 03 — Install Progress](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/_images/jetson-install-3-preconfig.png)
+![SDK Manager Step 03 — Install Progress](https://docs.nvidia.com/sdk-manager/_images/jetson-install-3-preconfig.png)
 
 Progress bar shows:
 - Downloading
