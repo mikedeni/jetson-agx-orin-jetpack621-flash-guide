@@ -209,14 +209,6 @@ After flashing, Jetson reboots into Ubuntu setup wizard.
    - Language
    - Username and password
    - Network (connect to same network as host for SDK components)
-3. Note the IP address — needed for SDK component installation.
-
-```bash
-# On Jetson, check IP
-ip a show eth0
-# or
-hostname -I
-```
 
 ---
 
